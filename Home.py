@@ -19,9 +19,11 @@ with col2:
     
 st.write("Below you can find some of the apps I have built. Feel free to contact me.")
 
-col3, col4 = st.columns(2)
+# The list rapresent the ratio for how the columns have to be wide.
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
-df = pandas.read_csv("AppList.csv", sep=";") # sep argument is by default ","
+# sep argument is by default ","
+df = pandas.read_csv("AppList.csv", sep=";") 
 
 len_list = len(df)
 div_list = math.ceil(len_list/2)
@@ -30,10 +32,12 @@ with col3:
     for index, row in df[:div_list].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image(row["image"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code]({row['url']})") # This is the special syntex for a website url. "[Source Code](url)" Source code is the text displayed in the website
 
 with col4:
     for index, row in df[div_list:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image(row["image"])
+        st.image("images/"+row["image"])
+        st.write(f"[Source Code]({row['url']})")
