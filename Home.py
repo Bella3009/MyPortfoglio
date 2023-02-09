@@ -8,7 +8,7 @@ st.title("My Profile")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.images("images/photos.png")
+    st.image("images/photos.png")
     
 with col2:
     st.title("Sara Bella Gauci")
@@ -28,10 +28,12 @@ div_list = math.ceil(len_list/2)
 
 with col3:
     for index, row in df[:div_list].iterrows():
-        st.header(row["Title"])
-        st.write(row["Description"])
+        st.header(row["title"])
+        st.write(row["description"])
+        st.image(row["image"])
 
 with col4:
     for index, row in df[div_list:].iterrows():
-        st.header(row["Title"])
-        st.write(row["Description"])
+        st.header(row["title"])
+        st.write(row["description"])
+        st.image(row["image"])
