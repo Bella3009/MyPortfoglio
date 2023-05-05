@@ -8,22 +8,23 @@ st.title("My Profile")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photos.png")
+    st.image("images/photo.jpeg")
     
 with col2:
     st.title("Sara Bella Gauci")
     content = """
-    Hello, I am Sara! I am a beginner in coding and welcome to my first website using Python. I still am learning and want improve my coding skills and make it my career. 
+    Hello, I am Sara! I am a beginner in coding and welcome to my first website using Python. 
+    I still am learning and want to improve my coding skills and make it my career. 
     """
     st.info(content)
     
 st.write("Below you can find some of the apps I have built. Feel free to contact me.")
 
-# The list rapresent the ratio for how the columns have to be wide.
+# The list represent the ratio for how the columns have to be wide.
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 # sep argument is by default ","
-df = pandas.read_csv("AppList.csv", sep=";") 
+df = pd.read_csv("AppList.csv", sep=";")
 
 len_list = len(df)
 div_list = math.ceil(len_list/2)
@@ -33,7 +34,9 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})") # This is the special syntex for a website url. "[Source Code](url)" Source code is the text displayed in the website
+        st.write(f"[Source Code]({row['url']})")
+        # This is the special syntax for a website url.
+        # "[Source Code](url)" Source code is the text displayed in the website
 
 with col4:
     for index, row in df[div_list:].iterrows():
