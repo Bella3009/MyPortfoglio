@@ -3,6 +3,7 @@ import pandas as pd
 import math
 
 st.set_page_config(layout="wide")
+projects = 3
 
 st.title("My Profile")
 col1, col2 = st.columns(2)
@@ -12,9 +13,10 @@ with col1:
     
 with col2:
     st.title("Sara Bella Gauci")
-    content = """
+    content = f"""
     Hello, I am Sara! I am a beginner in coding and welcome to my first website using Python. 
     I still am learning and want to improve my coding skills and make it my career. 
+    At the moment the moment I only have {projects} projects ready but I will slowly add more and of different coding languages.
     """
     st.info(content)
     
@@ -26,8 +28,9 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 # sep argument is by default ","
 df = pd.read_csv("AppList.csv", sep=";")
 
-len_list = len(df)
-div_list = math.ceil(len_list/2)
+#len_list = len(df)
+#div_list = math.ceil(len_list/2)
+div_list = math.ceil(projects/2)
 
 with col3:
     for index, row in df[:div_list].iterrows():
@@ -39,7 +42,7 @@ with col3:
         # "[Source Code](url)" Source code is the text displayed in the website
 
 with col4:
-    for index, row in df[div_list:].iterrows():
+    for index, row in df[div_list:projects].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/"+row["image"])
