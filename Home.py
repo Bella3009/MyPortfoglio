@@ -34,8 +34,14 @@ div_list = math.ceil(projects/2)
 
 with col3:
     for index, row in df[:div_list].iterrows():
+        lan = row['language']
+        if "," in lan:
+            lang = "Languages"
+        else:
+            lang = "Language"
         st.header(row["title"])
         st.write(row["description"])
+        st.write(f"{lang} used: {row['language']}")
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
         # This is the special syntax for a website url.
@@ -43,7 +49,13 @@ with col3:
 
 with col4:
     for index, row in df[div_list:projects].iterrows():
+        lan = row['language']
+        if "," in lan:
+            lang = "Languages"
+        else:
+            lang = "Language"
         st.header(row["title"])
         st.write(row["description"])
+        st.write(f"{lang} used: {row['language']}")
         st.image("images/"+row["image"])
         st.write(f"[Source Code]({row['url']})")
