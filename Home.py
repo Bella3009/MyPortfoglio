@@ -3,7 +3,7 @@ import pandas as pd
 import math
 
 st.set_page_config(layout="wide")
-projects = 3
+projects = 4
 
 st.title("My Profile")
 col1, col2 = st.columns(2)
