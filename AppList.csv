@@ -1,7 +1,7 @@
 title;description;url;image;language
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/Bella3009/MyPortfoglio.git;2.png; Python
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/Bella3009/PDF-Generator.git;3.png; Python
-Todo App;A distraction-free app to help you focus on creating and completing tasks.;https://github.com/Bella3009/ToDo-App-GUI.git;1.png;Python
+Todo App;A distraction-free app to help you focus on creating and completing tasks.;https://github.com/Bella3009/ToDo-App-GUI.git;GUIToDO.png;Python
 Simple Todo App;A small and simple app to create and complete tasks A distraction-free app to help you focus on creating and completing tasks.;https://github.com/Bella3009/ToDo-App.git;ToDo.png;Python
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://pythonhow.com;4.png; Python
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png; Python
