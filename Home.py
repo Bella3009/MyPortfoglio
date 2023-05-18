@@ -3,7 +3,7 @@ import pandas as pd
 import math
 
 st.set_page_config(layout="wide")
-projects = 4
+projects = 6
 
 st.title("My Profile")
 col1, col2 = st.columns(2)
@@ -26,7 +26,7 @@ st.write("Below you can find some of the apps I have built. Feel free to contact
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 # sep argument is by default ","
-df = pd.read_csv("AppList.csv", sep=";")
+df = pd.read_csv("AppList.csv", sep=",")
 
 #len_list = len(df)
 #div_list = math.ceil(len_list/2)
