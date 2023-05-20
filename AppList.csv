@@ -1,6 +1,6 @@
 title,description,url,image,language
 Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/Bella3009/MyPortfoglio.git,2.png,Python
-Dictionary API,A REST API to serve the definition or definitions of a word,https://github.com/Bella3009/Dictionery_API.git,NA.png,Python
+Dictionary API,A REST API to serve the definition or definitions of a word,https://github.com/Bella3009/Dictionery_API.git,Dict.png,Python
 Animal Datasheet,Short description of animals in text files combined in 1 PDF,https://github.com/Bella3009/Animal_Datasheet.git,NA.png,Python
 PDF Templates,A script that generates PDF templates of multiple pages given some predefined guidelines.,https://github.com/Bella3009/PDF-Generator.git,3.png,Python
 Bounce Game,A very simple mini game where you have to prevent the ball from touching the floor.,https://github.com/Bella3009/BounceGame.git,NA.png,"HTML, CSS, Javascript"
