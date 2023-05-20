@@ -1,11 +1,11 @@
 title,description,url,image,language
 Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/Bella3009/MyPortfoglio.git,2.png,Python
-Dictionary API,A REST API to serve the definition or definitions of a word,https://github.com/Bella3009/Dictionery_API.git,NA.png,Python
 Animal Datasheet,Short description of animals in text files combined in 1 PDF,https://github.com/Bella3009/Animal_Datasheet.git,NA.png,Python
 PDF Templates,A script that generates PDF templates of multiple pages given some predefined guidelines.,https://github.com/Bella3009/PDF-Generator.git,3.png,Python
 Bounce Game,A very simple mini game where you have to prevent the ball from touching the floor.,https://github.com/Bella3009/BounceGame.git,NA.png,"HTML, CSS, Javascript"
 Todo App,A distraction-free app to help you focus on creating and completing tasks.,https://github.com/Bella3009/ToDo-App-GUI.git,GUIToDO.png,Python
 Simple Todo App,A small and simple app to create and complete tasks A distraction-free app to help you focus on creating and completing tasks.,https://github.com/Bella3009/ToDo-App.git,ToDo.png,Python
+Dictionary API,A REST API to serve the definition or definitions of a word,https://github.com/Bella3009/Dictionery_API.git,Dict.png,Python
 PDF Invoices,A script that reads invoice records from Excel files and automatically generates PDF invoices.,https://pythonhow.com,4.png,Python
 Positive News Site,A website that gets data from a news API and uses sentiment analysis to publish only positive news.,https://pythonhow.com,5.png,Python
 Weather API,A REST API built with Python and Flask to serve historical weather data for various cities.,https://pythonhow.com,6.png,Python
