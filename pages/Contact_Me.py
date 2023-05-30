@@ -8,7 +8,7 @@ with st.form(key="emailForm"):
     userEmail = st.text_input("Your Email Address")
     rawMessage = st.text_area("Your Message")
 
-    # No Tab spaces because the code will not work correctly
+    # No Tab/spaces because the code will not work correctly
     message = f"""\
 Subject: New email from {userEmail}
 
