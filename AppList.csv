@@ -1,6 +1,7 @@
 title,description,url,image,language
 Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/Bella3009/MyPortfoglio.git,2.png,Python
-Weather Forecast Website,A website to show forecast temperature and sy condition of various cities,https://github.com/Bella3009/ForecastWeather.git,6.png,Python
+Book Sentiment Analysis,Analysing a story in text file format including sentiment analysis.,https://github.com/Bella3009/Book_Analysis.git,BookAnalysis.png,Python
+Visualizing Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://pythonhow.com,16.png,Python
 Weather API,A REST API built with Python and Flask to serve historical weather data for various cities.,https://github.com/Bella3009/Weather_API.git,6.png,Python
 Dictionary API,A REST API to serve the definition or definitions of a word,https://github.com/Bella3009/Dictionery_API.git,Dict.png,Python
 Positive News Site,A website that gets data from a news API and uses sentiment analysis to publish only positive news.,https://pythonhow.com,5.png,Python
@@ -19,7 +20,6 @@ Typing Analyzer,A program that monitors the computer keyboard and returns the mo
 Internet Speed Analysis,A program that records the internet speed every few seconds and plots the values on the browser.,https://pythonhow.com,13.png,Python
 Monitoring Data,A program that monitors a particular website and periodically records the data to a remote server.,https://pythonhow.com,14.png,Python
 Visualizing Data,A program that visualizes the data collected in the previous monitoring program. ,https://pythonhow.com,15.png,Python
-Visualizing Weather Forecast,A data web app that visualizes the weather forecast for the next five days of any city.,https://pythonhow.com,16.png,Python
 Student Management System,A desktop PyQt6 GUI app for managing university student data with an SQL database backend.,https://pythonhow.com,17.png,Python
 School Management System,A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.,https://pythonhow.com,18.png,Python
 Restaurant Menu Web App,A Django web app to let customers see a restaurant menu and meal availability.,https://pythonhow.com,19.png,Python
