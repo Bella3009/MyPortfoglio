@@ -1,5 +1,6 @@
 title,description,url,image,language
 Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/Bella3009/MyPortfoglio.git,2.png,Python
+Hotel Booking,A simple app to book a hotel reservation using OOP,https://github.com/Bella3009/Hotel_Booking.git,Hotel.png,Python
 Tour Scraper,A program that checks a music band's website and sends an email when there are new tours.,https://github.com/Bella3009/Music_Event_Webscraper.git,8.png,Python
 Webcam Motion Detector,A program that monitors the computer webcam and sends an email when a new object enters the view.,https://github.com/Bella3009/Webcam_Monitor_Email.git,11.png,Python
 Book Sentiment Analysis,Analysing a story in text file format including sentiment analysis.,https://github.com/Bella3009/Book_Analysis.git,BookAnalysis.png,Python
