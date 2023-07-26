@@ -1,5 +1,6 @@
 title,description,url,image,language
 Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/Bella3009/MyPortfoglio.git,2.png,Python
+Student Management System,A desktop PyQt6 GUI app for managing university student data with an SQL database backend.,https://github.com/Bella3009/SQLite_Student_Management_System.git,17.png,Python
 Hotel Booking,A simple app to book a hotel reservation using OOP,https://github.com/Bella3009/Hotel_Booking.git,Hotel.png,Python
 Tour Scraper,A program that checks a music band's website and sends an email when there are new tours.,https://github.com/Bella3009/Music_Event_Webscraper.git,8.png,Python
 Webcam Motion Detector,A program that monitors the computer webcam and sends an email when a new object enters the view.,https://github.com/Bella3009/Webcam_Monitor_Email.git,11.png,Python
@@ -22,7 +23,6 @@ Typing Analyzer,A program that monitors the computer keyboard and returns the mo
 Internet Speed Analysis,A program that records the internet speed every few seconds and plots the values on the browser.,https://pythonhow.com,13.png,Python
 Monitoring Data,A program that monitors a particular website and periodically records the data to a remote server.,https://pythonhow.com,14.png,Python
 Visualizing Data,A program that visualizes the data collected in the previous monitoring program. ,https://pythonhow.com,15.png,Python
-Student Management System,A desktop PyQt6 GUI app for managing university student data with an SQL database backend.,https://pythonhow.com,17.png,Python
 School Management System,A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.,https://pythonhow.com,18.png,Python
 Restaurant Menu Web App,A Django web app to let customers see a restaurant menu and meal availability.,https://pythonhow.com,19.png,Python
 Online Store,A Django online store app where users can place orders and sellers can manage them.,https://pythonhow.com,20.png,Python
