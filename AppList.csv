@@ -1,5 +1,6 @@
 title,description,url,image,language
 Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/Bella3009/MyPortfoglio.git,2.png,Python
+Helper Chatbot,A chatbot that knows about a specific topic and answers questions regarding that topic.,https://github.com/Bella3009/Intelligent_Chatbot.git,9.png,Python
 Student Management System,A desktop PyQt6 GUI app for managing university student data with an SQL database backend.,https://github.com/Bella3009/SQLite_Student_Management_System.git,17.png,Python
 Hotel Booking,A simple app to book a hotel reservation using OOP,https://github.com/Bella3009/Hotel_Booking.git,Hotel.png,Python
 Tour Scraper,A program that checks a music band's website and sends an email when there are new tours.,https://github.com/Bella3009/Music_Event_Webscraper.git,8.png,Python
@@ -17,7 +18,6 @@ Todo App,A distraction-free web app to help you focus on creating and completing
 Simple Todo App,A small and simple app to create and complete tasks.,https://github.com/Bella3009/ToDo-App-GUI.git,ToDo.png,Python
 Bounce Game,A very simple mini game where you have to prevent the ball from touching the floor.,https://github.com/Bella3009/BounceGame.git,NA.png,"HTML, CSS, Javascript"
 Download Cleaner,A script that monitors the Downloads folder and deletes old files keeping the folder clean.,https://pythonhow.com,7.png,Python
-Helper Chatbot,A chatbot that knows about a specific topic and answers questions regarding that topic.,https://pythonhow.com,9.png,Python
 Open Domain Chatbot,A chatbot built that can discuss anything with a human and is built using the Facebook API.,https://pythonhow.com,10.png,Python
 Typing Analyzer,A program that monitors the computer keyboard and returns the most typed words of the session.,https://pythonhow.com,12.png,Python
 Internet Speed Analysis,A program that records the internet speed every few seconds and plots the values on the browser.,https://pythonhow.com,13.png,Python
